@@ -18,5 +18,5 @@ chown -R www-data:www-data /usr/share/nginx/html/soft_ui_dashboard_laravel_free/
 php8.0 artisan up
 source ~/.nvm/nvm.sh
 npm install
-npm run prod
+npm run build
 echo "Deploy script finished execution"
